@@ -1,0 +1,2 @@
+- utilisation de cypress pour faire du test end to end
+- pour le nommage des balises html (pour pour faire écrire le cypress avant d'écrire le html), on peut rajouter les balises data-cy pour le html 
