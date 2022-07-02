@@ -49,7 +49,7 @@ describe('Restaurant Pass Checker', () => {
         cy.visit('/');
 
         // When I type in a well formatted but false number
-        cy.get('[data-cy-security-number]').type('186103013999001');
+        cy.get('[data-cy-security-number]').type('1861013999001');
         // And I submit the form
         cy.get('[data-cy-submit]').click();
 
